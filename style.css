@@ -287,7 +287,7 @@ color: #3e7d4d;
   transition: background 0.3s ease,transform 0.3s ease;
 }
 .best-one:hover{
-background: #3f8a5e;
+background: #444;
 transform: translateY(-2px);
 }
 .best-one img{
@@ -299,3 +299,38 @@ transform: translateY(-2px);
   font-size: 13px;
   color: #64748b;
 }
+.footer{
+  width: 100%;
+  padding-top: 40px;
+
+}
+.footer-box{
+  max-width: 1600px;
+  margin: o auto;
+  background: linear-gradient(180deg,#061a33,#041224);
+  padding: 45px 60px;
+  border: 1px solid rgba(255,255,255,0.12);
+  padding: 45px 60px;
+}
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo img{
+  height: 48px;
+}
+.social-icon img{
+  height: 46px;
+}
+.footer-line{
+margin: 32px 0 22px;
+height: 1px;
+background: rgba(255,255,255,0.15);
+}
+.footer-copy{
+  text-align: center;
+  font-size: 13px;
+  color: #94a3b8;
+}
+
